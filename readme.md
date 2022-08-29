@@ -36,12 +36,6 @@ pip install -r requirements.txt
 ```
 - If you would like to use GPU, set ```USE_GPU = True``` in the config. options at 'mylib/config.py'.
 
-- Note that you need to build OpenCV with CUDA (for an NVIDIA GPU) support first:
-
-> Click [**here**](https://jamesbowley.co.uk/accelerate-opencv-4-2-0-build-with-cuda-and-python-bindings/) for build instructions on Windows.
-
-> This tutorial also might help. Click [**here**](https://www.youtube.com/watch?v=TT3_dlPL4vo&list=WL&index=108&t=0s).
-
 - Download the weights file from [**here**](https://drive.google.com/file/d/1O2zmGIIHLX8SGs24W7mjRyFKvE_CSY8n/view?usp=sharing) and place it in the 'yolo' folder.
 
 - To run inference on a test video file, head into the directory/use the command:
